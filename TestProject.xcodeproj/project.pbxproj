@@ -7,34 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F90E4FE1CFFE456000B92F3 /* hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F90E4FD1CFFE456000B92F3 /* hehe.png */; };
+		1F7CE7441D1108280000F7D6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7CE7431D1108280000F7D6 /* libz.tbd */; };
+		1F7CE74B1D110AE30000F7D6 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE7481D110AE30000F7D6 /* SSKeychain.m */; };
+		1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE74A1D110AE30000F7D6 /* UUID.m */; };
+		1F7CE7561D112D440000F7D6 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE7551D112D440000F7D6 /* UIColor+Extension.m */; };
+		1F7CE7591D112DC00000F7D6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE7581D112DC00000F7D6 /* UIView+Frame.m */; };
 		1FC5F2D41CFEC76F00AE32FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5F2D31CFEC76F00AE32FA /* main.m */; };
 		1FC5F2D71CFEC76F00AE32FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5F2D61CFEC76F00AE32FA /* AppDelegate.m */; };
 		1FC5F2DA1CFEC76F00AE32FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC5F2D91CFEC76F00AE32FA /* ViewController.m */; };
-		1FC5F2DD1CFEC76F00AE32FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5F2DB1CFEC76F00AE32FA /* Main.storyboard */; };
 		1FC5F2DF1CFEC76F00AE32FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5F2DE1CFEC76F00AE32FA /* Assets.xcassets */; };
 		1FC5F2E21CFEC76F00AE32FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5F2E01CFEC76F00AE32FA /* LaunchScreen.storyboard */; };
 		1FC5F2EA1CFED85300AE32FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1FC5F2E91CFED85300AE32FA /* Podfile */; };
-		1FC5F2EC1CFEE82700AE32FA /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC5F2EB1CFEE82600AE32FA /* Reveal.framework */; };
-		1FC5F2EE1CFEE97C00AE32FA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC5F2ED1CFEE97C00AE32FA /* libz.tbd */; };
 		EDE05CF391D8D54724BF4F0D /* libPods-TestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB39EA8625701129AE34518C /* libPods-TestProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F90E4FD1CFFE456000B92F3 /* hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hehe.png; sourceTree = "<group>"; };
+		1F7CE7431D1108280000F7D6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1F7CE7471D110AE30000F7D6 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		1F7CE7481D110AE30000F7D6 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		1F7CE7491D110AE30000F7D6 /* UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUID.h; sourceTree = "<group>"; };
+		1F7CE74A1D110AE30000F7D6 /* UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUID.m; sourceTree = "<group>"; };
+		1F7CE74E1D1128A00000F7D6 /* ApiMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMacro.h; sourceTree = "<group>"; };
+		1F7CE74F1D1128A00000F7D6 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		1F7CE7501D1128A00000F7D6 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
+		1F7CE7511D1128A00000F7D6 /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		1F7CE7521D1128A00000F7D6 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		1F7CE7541D112D440000F7D6 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		1F7CE7551D112D440000F7D6 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		1F7CE7571D112DC00000F7D6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		1F7CE7581D112DC00000F7D6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		1FC5F2CF1CFEC76F00AE32FA /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC5F2D31CFEC76F00AE32FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC5F2D51CFEC76F00AE32FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1FC5F2D61CFEC76F00AE32FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1FC5F2D81CFEC76F00AE32FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FC5F2D91CFEC76F00AE32FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1FC5F2DC1CFEC76F00AE32FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FC5F2DE1CFEC76F00AE32FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FC5F2E11CFEC76F00AE32FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FC5F2E31CFEC76F00AE32FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FC5F2E91CFED85300AE32FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1FC5F2EB1CFEE82600AE32FA /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
-		1FC5F2ED1CFEE97C00AE32FA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4D1796C703F86798BBD4C74F /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
 		BB39EA8625701129AE34518C /* libPods-TestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE81B2B62840AB4C7A647CF7 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC5F2EE1CFEE97C00AE32FA /* libz.tbd in Frameworks */,
-				1FC5F2EC1CFEE82700AE32FA /* Reveal.framework in Frameworks */,
+				1F7CE7441D1108280000F7D6 /* libz.tbd in Frameworks */,
 				EDE05CF391D8D54724BF4F0D /* libPods-TestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,16 +67,57 @@
 		0A4B597F7DE43B82382AD278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F7CE7431D1108280000F7D6 /* libz.tbd */,
 				BB39EA8625701129AE34518C /* libPods-TestProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1F7CE7451D110AE30000F7D6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE7461D110AE30000F7D6 /* UUID */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1F7CE7461D110AE30000F7D6 /* UUID */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE7471D110AE30000F7D6 /* SSKeychain.h */,
+				1F7CE7481D110AE30000F7D6 /* SSKeychain.m */,
+				1F7CE7491D110AE30000F7D6 /* UUID.h */,
+				1F7CE74A1D110AE30000F7D6 /* UUID.m */,
+			);
+			path = UUID;
+			sourceTree = "<group>";
+		};
+		1F7CE74D1D1128A00000F7D6 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE7521D1128A00000F7D6 /* Prefix.pch */,
+				1F7CE74F1D1128A00000F7D6 /* AppConfig.h */,
+				1F7CE7501D1128A00000F7D6 /* DefineMacro.h */,
+				1F7CE74E1D1128A00000F7D6 /* ApiMacro.h */,
+				1F7CE7511D1128A00000F7D6 /* NotificationMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		1F7CE7531D112D440000F7D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1F7CE7541D112D440000F7D6 /* UIColor+Extension.h */,
+				1F7CE7551D112D440000F7D6 /* UIColor+Extension.m */,
+				1F7CE7571D112DC00000F7D6 /* UIView+Frame.h */,
+				1F7CE7581D112DC00000F7D6 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		1FC5F2C61CFEC76E00AE32FA = {
 			isa = PBXGroup;
 			children = (
-				1FC5F2ED1CFEE97C00AE32FA /* libz.tbd */,
-				1FC5F2EB1CFEE82600AE32FA /* Reveal.framework */,
 				1FC5F2D11CFEC76F00AE32FA /* TestProject */,
 				1FC5F2D01CFEC76F00AE32FA /* Products */,
 				66EA69B34E42BB4283A5BFBE /* Pods */,
@@ -85,15 +136,16 @@
 		1FC5F2D11CFEC76F00AE32FA /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				1F7CE7531D112D440000F7D6 /* Category */,
+				1F7CE74D1D1128A00000F7D6 /* Macro */,
+				1F7CE7451D110AE30000F7D6 /* Utility */,
 				1FC5F2D51CFEC76F00AE32FA /* AppDelegate.h */,
 				1FC5F2D61CFEC76F00AE32FA /* AppDelegate.m */,
 				1FC5F2D81CFEC76F00AE32FA /* ViewController.h */,
 				1FC5F2D91CFEC76F00AE32FA /* ViewController.m */,
-				1FC5F2DB1CFEC76F00AE32FA /* Main.storyboard */,
 				1FC5F2DE1CFEC76F00AE32FA /* Assets.xcassets */,
 				1FC5F2E01CFEC76F00AE32FA /* LaunchScreen.storyboard */,
 				1FC5F2E31CFEC76F00AE32FA /* Info.plist */,
-				1F90E4FD1CFFE456000B92F3 /* hehe.png */,
 				1FC5F2D21CFEC76F00AE32FA /* Supporting Files */,
 			);
 			path = TestProject;
@@ -177,11 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F90E4FE1CFFE456000B92F3 /* hehe.png in Resources */,
 				1FC5F2E21CFEC76F00AE32FA /* LaunchScreen.storyboard in Resources */,
 				1FC5F2DF1CFEC76F00AE32FA /* Assets.xcassets in Resources */,
 				1FC5F2EA1CFED85300AE32FA /* Podfile in Resources */,
-				1FC5F2DD1CFEC76F00AE32FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */,
+				1F7CE7561D112D440000F7D6 /* UIColor+Extension.m in Sources */,
 				1FC5F2DA1CFEC76F00AE32FA /* ViewController.m in Sources */,
+				1F7CE7591D112DC00000F7D6 /* UIView+Frame.m in Sources */,
+				1F7CE74B1D110AE30000F7D6 /* SSKeychain.m in Sources */,
 				1FC5F2D71CFEC76F00AE32FA /* AppDelegate.m in Sources */,
 				1FC5F2D41CFEC76F00AE32FA /* main.m in Sources */,
 			);
@@ -249,14 +303,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FC5F2DB1CFEC76F00AE32FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FC5F2DC1CFEC76F00AE32FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1FC5F2E01CFEC76F00AE32FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,8 +403,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = TestProject/Macro/Prefix.pch;
 				INFOPLIST_FILE = TestProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -379,8 +426,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = TestProject/Macro/Prefix.pch;
 				INFOPLIST_FILE = TestProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",

@@ -18,19 +18,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    // FIXME:hehe
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
-    [button setTitle:@"hehe" forState:UIControlStateNormal];
-    [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [self.view addSubview:button];
-    button.frame = CGRectMake(40, 40, 100, 30);
-    [button addTarget:self action:@selector(buttonPress) forControlEvents:UIControlEventTouchUpInside];
-}
-
-- (void)buttonPress
-{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"hehe" message:@"haha" delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:nil];
-    [alert show];
+    self.view.backgroundColor =  ColorRandom;
 }
 
 
