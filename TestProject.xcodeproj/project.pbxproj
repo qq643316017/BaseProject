@@ -12,6 +12,7 @@
 		1F15CD301D124E6B00CC23B8 /* CoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD271D124E6B00CC23B8 /* CoreStatus.m */; };
 		1F15CD311D124E6B00CC23B8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD2D1D124E6B00CC23B8 /* Reachability.m */; };
 		1F15CD331D125C3E00CC23B8 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F15CD321D125C3E00CC23B8 /* libAFNetworking.a */; };
+		1F15CD361D129E6D00CC23B8 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD351D129E6D00CC23B8 /* GlobeConst.m */; };
 		1F7CE7441D1108280000F7D6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7CE7431D1108280000F7D6 /* libz.tbd */; };
 		1F7CE74B1D110AE30000F7D6 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE7481D110AE30000F7D6 /* SSKeychain.m */; };
 		1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE74A1D110AE30000F7D6 /* UUID.m */; };
@@ -39,6 +40,8 @@
 		1F15CD2D1D124E6B00CC23B8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		1F15CD2F1D124E6B00CC23B8 /* CoreStatusSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusSingleton.h; sourceTree = "<group>"; };
 		1F15CD321D125C3E00CC23B8 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		1F15CD341D129E6D00CC23B8 /* GlobeConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobeConst.h; sourceTree = "<group>"; };
+		1F15CD351D129E6D00CC23B8 /* GlobeConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobeConst.m; sourceTree = "<group>"; };
 		1F7CE7431D1108280000F7D6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1F7CE7471D110AE30000F7D6 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		1F7CE7481D110AE30000F7D6 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		1F7CE74E1D1128A00000F7D6 /* ApiMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiMacro.h; sourceTree = "<group>"; };
 		1F7CE74F1D1128A00000F7D6 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
 		1F7CE7501D1128A00000F7D6 /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
-		1F7CE7511D1128A00000F7D6 /* NotificationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
 		1F7CE7521D1128A00000F7D6 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		1F7CE7541D112D440000F7D6 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		1F7CE7551D112D440000F7D6 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
@@ -168,7 +170,8 @@
 				1F7CE74F1D1128A00000F7D6 /* AppConfig.h */,
 				1F7CE7501D1128A00000F7D6 /* DefineMacro.h */,
 				1F7CE74E1D1128A00000F7D6 /* ApiMacro.h */,
-				1F7CE7511D1128A00000F7D6 /* NotificationMacro.h */,
+				1F15CD341D129E6D00CC23B8 /* GlobeConst.h */,
+				1F15CD351D129E6D00CC23B8 /* GlobeConst.m */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				1F15CD211D124CC000CC23B8 /* HttpNewTool.m in Sources */,
 				1F7CE75D1D113EB70000F7D6 /* ViewController.m in Sources */,
 				1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */,
+				1F15CD361D129E6D00CC23B8 /* GlobeConst.m in Sources */,
 				1F15CD311D124E6B00CC23B8 /* Reachability.m in Sources */,
 				1F7CE7561D112D440000F7D6 /* UIColor+Extension.m in Sources */,
 				1F15CD241D124CD500CC23B8 /* ResponseObject.m in Sources */,
