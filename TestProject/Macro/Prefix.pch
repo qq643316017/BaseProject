@@ -2,6 +2,9 @@
 
 #ifdef __OBJC__
 
+//网络类
+#import "HttpNewTool.h"
+
 //宏定义类
 #import "AppConfig.h"
 #import "DefineMacro.h"
@@ -13,8 +16,12 @@
 #import "UIView+Frame.h"
 #import "UIImageView+WebCache.h"
 
+//工具类
+#import "CoreStatus.h"
+#import "UUID.h"
+
 //pod第三方类库
-#import "AFNetworking.h"
+#import <AFNetworking.h>
 #import "FMDB.h"
 #import "JSONKit.h"
 #import "Masonry.h"

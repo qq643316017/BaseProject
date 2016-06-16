@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor =  ColorRandom;
+    
+    [HttpNewTool postWithBaseUrl:@"http://www.weather.com.cn/data/sk/101010100.html" params:@{@"cityId":@"111111"} finishedBlock:^(ResponseObject *response) {
+        
+    }];
 }
 
 

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F15CD211D124CC000CC23B8 /* HttpNewTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD201D124CC000CC23B8 /* HttpNewTool.m */; };
+		1F15CD241D124CD500CC23B8 /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD231D124CD500CC23B8 /* ResponseObject.m */; };
+		1F15CD301D124E6B00CC23B8 /* CoreStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD271D124E6B00CC23B8 /* CoreStatus.m */; };
+		1F15CD311D124E6B00CC23B8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F15CD2D1D124E6B00CC23B8 /* Reachability.m */; };
+		1F15CD331D125C3E00CC23B8 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F15CD321D125C3E00CC23B8 /* libAFNetworking.a */; };
 		1F7CE7441D1108280000F7D6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7CE7431D1108280000F7D6 /* libz.tbd */; };
 		1F7CE74B1D110AE30000F7D6 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE7481D110AE30000F7D6 /* SSKeychain.m */; };
 		1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CE74A1D110AE30000F7D6 /* UUID.m */; };
@@ -22,6 +27,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F15CD1F1D124CC000CC23B8 /* HttpNewTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpNewTool.h; sourceTree = "<group>"; };
+		1F15CD201D124CC000CC23B8 /* HttpNewTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpNewTool.m; sourceTree = "<group>"; };
+		1F15CD221D124CD500CC23B8 /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseObject.h; sourceTree = "<group>"; };
+		1F15CD231D124CD500CC23B8 /* ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseObject.m; sourceTree = "<group>"; };
+		1F15CD261D124E6B00CC23B8 /* CoreStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatus.h; sourceTree = "<group>"; };
+		1F15CD271D124E6B00CC23B8 /* CoreStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreStatus.m; sourceTree = "<group>"; };
+		1F15CD291D124E6B00CC23B8 /* CoreNetworkStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreNetworkStatus.h; sourceTree = "<group>"; };
+		1F15CD2A1D124E6B00CC23B8 /* CoreStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusProtocol.h; sourceTree = "<group>"; };
+		1F15CD2C1D124E6B00CC23B8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1F15CD2D1D124E6B00CC23B8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1F15CD2F1D124E6B00CC23B8 /* CoreStatusSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreStatusSingleton.h; sourceTree = "<group>"; };
+		1F15CD321D125C3E00CC23B8 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		1F7CE7431D1108280000F7D6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1F7CE7471D110AE30000F7D6 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
 		1F7CE7481D110AE30000F7D6 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F15CD331D125C3E00CC23B8 /* libAFNetworking.a in Frameworks */,
 				1F7CE7441D1108280000F7D6 /* libz.tbd in Frameworks */,
 				EDE05CF391D8D54724BF4F0D /* libPods-TestProject.a in Frameworks */,
 			);
@@ -67,15 +85,66 @@
 		0A4B597F7DE43B82382AD278 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F15CD321D125C3E00CC23B8 /* libAFNetworking.a */,
 				1F7CE7431D1108280000F7D6 /* libz.tbd */,
 				BB39EA8625701129AE34518C /* libPods-TestProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1F15CD1E1D124CA100CC23B8 /* HttpNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1F15CD221D124CD500CC23B8 /* ResponseObject.h */,
+				1F15CD231D124CD500CC23B8 /* ResponseObject.m */,
+				1F15CD1F1D124CC000CC23B8 /* HttpNewTool.h */,
+				1F15CD201D124CC000CC23B8 /* HttpNewTool.m */,
+			);
+			path = HttpNetwork;
+			sourceTree = "<group>";
+		};
+		1F15CD251D124E6B00CC23B8 /* CoreStatus */ = {
+			isa = PBXGroup;
+			children = (
+				1F15CD261D124E6B00CC23B8 /* CoreStatus.h */,
+				1F15CD271D124E6B00CC23B8 /* CoreStatus.m */,
+				1F15CD281D124E6B00CC23B8 /* Lib */,
+			);
+			path = CoreStatus;
+			sourceTree = "<group>";
+		};
+		1F15CD281D124E6B00CC23B8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F15CD291D124E6B00CC23B8 /* CoreNetworkStatus.h */,
+				1F15CD2A1D124E6B00CC23B8 /* CoreStatusProtocol.h */,
+				1F15CD2B1D124E6B00CC23B8 /* Reachability */,
+				1F15CD2E1D124E6B00CC23B8 /* Singleton */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		1F15CD2B1D124E6B00CC23B8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1F15CD2C1D124E6B00CC23B8 /* Reachability.h */,
+				1F15CD2D1D124E6B00CC23B8 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		1F15CD2E1D124E6B00CC23B8 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1F15CD2F1D124E6B00CC23B8 /* CoreStatusSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		1F7CE7451D110AE30000F7D6 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				1F15CD251D124E6B00CC23B8 /* CoreStatus */,
 				1F7CE7461D110AE30000F7D6 /* UUID */,
 			);
 			path = Utility;
@@ -145,12 +214,13 @@
 		1FC5F2D11CFEC76F00AE32FA /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				1FC5F2D51CFEC76F00AE32FA /* AppDelegate.h */,
+				1FC5F2D61CFEC76F00AE32FA /* AppDelegate.m */,
+				1F15CD1E1D124CA100CC23B8 /* HttpNetwork */,
 				1F7CE7531D112D440000F7D6 /* Category */,
 				1F7CE74D1D1128A00000F7D6 /* Macro */,
 				1F7CE7451D110AE30000F7D6 /* Utility */,
 				1F7CE75A1D113EB70000F7D6 /* Component */,
-				1FC5F2D51CFEC76F00AE32FA /* AppDelegate.h */,
-				1FC5F2D61CFEC76F00AE32FA /* AppDelegate.m */,
 				1FC5F2DE1CFEC76F00AE32FA /* Assets.xcassets */,
 				1FC5F2E01CFEC76F00AE32FA /* LaunchScreen.storyboard */,
 				1FC5F2E31CFEC76F00AE32FA /* Info.plist */,
@@ -298,12 +368,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F15CD211D124CC000CC23B8 /* HttpNewTool.m in Sources */,
 				1F7CE75D1D113EB70000F7D6 /* ViewController.m in Sources */,
 				1F7CE74C1D110AE30000F7D6 /* UUID.m in Sources */,
+				1F15CD311D124E6B00CC23B8 /* Reachability.m in Sources */,
 				1F7CE7561D112D440000F7D6 /* UIColor+Extension.m in Sources */,
+				1F15CD241D124CD500CC23B8 /* ResponseObject.m in Sources */,
 				1F7CE7591D112DC00000F7D6 /* UIView+Frame.m in Sources */,
 				1F7CE74B1D110AE30000F7D6 /* SSKeychain.m in Sources */,
 				1FC5F2D71CFEC76F00AE32FA /* AppDelegate.m in Sources */,
+				1F15CD301D124E6B00CC23B8 /* CoreStatus.m in Sources */,
 				1FC5F2D41CFEC76F00AE32FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +413,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: shenzhen 9zhitx technology Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: shenzhen 9zhitx technology Co.,Ltd";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -382,7 +457,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: shenzhen 9zhitx technology Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: shenzhen 9zhitx technology Co.,Ltd";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -415,6 +491,7 @@
 				INFOPLIST_FILE = TestProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
@@ -438,6 +515,7 @@
 				INFOPLIST_FILE = TestProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-framework",
