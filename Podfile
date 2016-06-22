@@ -10,5 +10,6 @@ pod 'FMDB', '~> 2.6.2'
 pod 'MBProgressHUD', '~> 0.9.2'
 pod 'MJExtension', '~> 3.0.10'
 pod 'SDWebImage', '~> 3.7.6'
+pod 'ReactiveCocoa'
 
 end
